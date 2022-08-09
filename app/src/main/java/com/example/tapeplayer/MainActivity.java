@@ -149,6 +149,7 @@ public class MainActivity extends AppCompatActivity {
                         textViewStatus.setText("Fast Forwarding");
                         textViewSeconds.setText(toSecondsString(timelineSeconds));
                     }
+                    //this is for git check
                     public void onFinish() {
                         resetTimeline();
                     }
